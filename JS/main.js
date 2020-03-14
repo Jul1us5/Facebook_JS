@@ -26,7 +26,11 @@ let HTML = `<div class="post">
 }
 
 function getDataHeader(autorius, laikas) {
-    let HTML = `<div class="header">Header :)</div>`;
+    let HTML = `<div class="header">
+                <img src="./img/avatar/${autorius.avataras}">
+                <div class="user_info">${autorius.vardas} ${autorius.pavarde}</div>
+                <div class="time">${laikas}</div>
+                </div>`;
     return HTML;
 }
 function getDataContent(pranesimas) {

@@ -7,10 +7,10 @@ const feed = [
         pavarde: 'Pavardenis',
         amzius: 26,
         lytis: 'Vyras',
-        avataras: 'avataras.png',
+        avataras: '1.png',
         nuoroda: '#'
     },
-        laikas: 1583832433393,
+    laikas: 1583832433393,
     pranesimas: {
         tekstas: 'Sveiki, as esu Julius.'
     }
@@ -25,7 +25,7 @@ const feed = [
         avataras: 'avataras.png',
         nuoroda: '#',
     },
-        laikas: 1583832433393,
+    laikas: 1583832433393,
     pranesimas: {
         tekstas: 'Neturiu komentaru....'
     }
@@ -37,11 +37,11 @@ const feed = [
         pavarde: 'Pavardenis',
         amzius: 27,
         lytis: 'Vyras',
-        avataras: 'avataras.png',
+        avataras: '2.png',
         nuoroda: '#',
         },
     laikas: 1583832434388,
-        pranesimas: {
+    pranesimas: {
         tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi'
     }
     },
@@ -52,11 +52,11 @@ const feed = [
         pavarde: 'Pavardenis',
         amzius: 50,
         lytis: 'Vyras',
-        avataras: 'avataras.png',
+        avataras: '3.png',
         nuoroda: '#',
         },
     laikas: 1583832434388,
-        pranesimas: {
+    pranesimas: {
         tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi . Ex earum tenetur odit nemo id architecto laborum iure error, . Ex earum tenetur odit nemo id architecto laborum iure error,'
     }
     },
@@ -71,7 +71,7 @@ const feed = [
         nuoroda: '#',
         },
     laikas: 1583832434388,
-        pranesimas: {
+    pranesimas: {
         tekstas: 'Labas'
     }
     },
@@ -86,7 +86,7 @@ const feed = [
         nuoroda: '#',
         },
     laikas: 1583832434388,
-        pranesimas: {
+    pranesimas: {
         tekstas: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, veniam quia totam nemo, tempore delectus, illum rem necessitatibus minus maxime et odit vel explicabo ullam! Tenetur iusto velit delectus et ex numquam repellat natus, eaque esse sint iste consectetur placeat nesciunt quos vel commodi? Aliquam modi facilis nulla consequatur illum.'
     }
     },
@@ -101,10 +101,10 @@ const feed = [
         nuoroda: '#',
         },
     laikas: 1583832434388,
-        pranesimas: {
+    pranesimas: {
         tekstas: 'Labas',
         paveiksliukai: [
-            'image1.png',
+            '1.png',
         ]
     }
     },
@@ -119,11 +119,11 @@ const feed = [
         nuoroda: '#',
         },
     laikas: 1583832434388,
-        pranesimas: {
+    pranesimas: {
         tekstas: 'Labas',
         paveiksliukai: [
-            'image1.png',
-            'image2.png',
+            '1.png',
+            '2.png',
         ]
     }
     }, 
@@ -138,12 +138,12 @@ const feed = [
         nuoroda: '#',
         },
     laikas: 1583832434388,
-        pranesimas: {
+    pranesimas: {
         tekstas: 'Labas',
         paveiksliukai: [
-            'image1.png',
-            'image2.png',
-            'image3.png',
+            '1.png',
+            '2.png',
+            '3.png',
         ]
     }
     }, 
@@ -161,10 +161,10 @@ const feed = [
     pranesimas: {
         tekstas: 'Labas',
         paveiksliukai: [
-            'image1.png',
-            'image2.png',
-            'image3.png',
-            'image4.png',
+            '1.png',
+            '2.png',
+            '3.png',
+            '4.png',
         ]
     }
     }, 
@@ -182,12 +182,12 @@ const feed = [
     pranesimas: {
         tekstas: 'Labas',
         paveiksliukai: [
-            'image1.png',
-            'image2.png',
-            'image3.png',
-            'image4.png',
-            'image5.png',
-            'image6.png',
+            '1.png',
+            '2.png',
+            '3.png',
+            '4.png',
+            '5.png',
+            '6.png',
         ]
     }
     },    
