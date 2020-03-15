@@ -48,30 +48,39 @@ function getDataHeader(autorius, laikas) {
                 </div>`;
     return HTML;
 }
+
+
+
+
 function getDataContent(pranesimas) {
-    let HTML = `<div class="content">Content</div>`;
+    let HTML = `<div class="content">${pranesimas.tekstas}</div>`;
     return HTML;
 }
 function getDataFooter( ) {
-    let HTML = `<div class="footer">Footer</div>`;
+    let HTML = `<div class="footer">
+                <div class="">??</div>
+                <div class="comment">??</div>
+                </div>`;
     return HTML;
 }
 
 
 
-        // for (var i = 0; i<feed.length; i++) {
-        //     var res = feed[i].autorius.avataras;
-        //     var avatr = '';
-        //     var all;
-        //     if ( res === 'avataras.png') {
-        //          all = avatr + 'user.png';
-        //     } else {
-        //          all = res;
-        //     }
+        for (var i = 0; i<feed.length; i++) {
+            var res = feed[i].autorius.avataras;
+            var avatr = '';
+            var all;
+            if ( res === 'avataras.png') {
+                 all = avatr + 'user.png';
+            } else {
+                 all = res;
+            }
             
-        //     console.log(all);
+            console.log(all);
 
-        // }
+        }
+        console.log('-----------');
+        console.log(all);
 
 
 getFeed(feed);

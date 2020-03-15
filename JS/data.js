@@ -120,7 +120,7 @@ const feed = [
         },
     laikas: 1583832434388,
     pranesimas: {
-        tekstas: 'Labas',
+        tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi . Ex earum tenetur  . Ex earum tenetur odit nemo id architecto laborum iure erro',
         paveiksliukai: [
             '1.png',
             '2.png',
@@ -139,7 +139,7 @@ const feed = [
         },
     laikas: 1583832434388,
     pranesimas: {
-        tekstas: 'Labas',
+        tekstas: 'LabasLorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi, Ex earum tenetur odit nemo id architecto laborum iure erro',
         paveiksliukai: [
             '1.png',
             '2.png',
@@ -159,7 +159,7 @@ const feed = [
         },
     laikas: 1583832434388,
     pranesimas: {
-        tekstas: 'Labas',
+        tekstas: 'LabasLorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum ',
         paveiksliukai: [
             '1.png',
             '2.png',
@@ -180,7 +180,7 @@ const feed = [
     },
     laikas: 1583832434388,
     pranesimas: {
-        tekstas: 'Labas',
+        tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi',
         paveiksliukai: [
             '1.png',
             '2.png',
