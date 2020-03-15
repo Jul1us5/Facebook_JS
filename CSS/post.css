@@ -19,7 +19,7 @@
         float: left;
 
     }
-    .header > img {
+    .post > .header > img {
         display: inline-block;
         height: 50px;
         width: 50px;
@@ -97,7 +97,7 @@
                     position: relative;
                     margin-top: 10px;
                 }
-                img {
+                .footer > img {
                     display: inline-block;
                     height: 40px;
                     width: 40px;
@@ -136,3 +136,8 @@
                 .imc > .fa {
                     font-size: 14px;
                 }
+.inner_content > img {
+    display: inline-block;
+    width: 100%;
+
+}

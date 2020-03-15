@@ -58,14 +58,44 @@ function getDataHeader(autorius, laikas) {
 
 
 
-function getDataContent(pranesimas) {
-    let HTML = `<div class="content">${pranesimas.tekstas}</div>`;
+function getDataContent( pranesimas ) {
+
+
+    let HTML = '';
+    HTML = `<div class="inner_content">`;
+    if ( pranesimas.tekstas ) {
+            HTML += getDataContentText( pranesimas.tekstas, pranesimas.spalva );
+          }  
+    if ( pranesimas.paveiksliukai ) {
+            HTML += getDataContentGallery( pranesimas.paveiksliukai );
+          }
+            HTML += `</div>`;
+
+            return HTML;
+        }
+
+function getDataContentText( tekstas, spalva ) {
+    let HTML = '';
+        
+    HTML += `<p>${tekstas}</p>`;
+        
     return HTML;
 }
 
 
 
+function getDataContentGallery( paveiksliukai ) {
 
+
+    console.log(paveiksliukai);
+    let HTML = '';
+
+    HTML += `<img src="./img/${ paveiksliukai }">`;
+    return HTML;
+
+
+    
+} 
 
 
 

@@ -103,6 +103,7 @@ const feed = [
     laikas: 1583832434388,
     pranesimas: {
         tekstas: 'Labas',
+        spalva: 'red',
         paveiksliukai: [
             '1.png',
         ]
@@ -160,6 +161,7 @@ const feed = [
     laikas: 1583832434388,
     pranesimas: {
         tekstas: 'LabasLorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum ',
+        spalva: 'orange',
         paveiksliukai: [
             '1.png',
             '2.png',
