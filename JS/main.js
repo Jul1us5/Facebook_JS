@@ -32,11 +32,17 @@ let HTML = `<div class="post">
 
 function getDataHeader(autorius, laikas) {
 
+    let avatar = '';
+    if ( autorius.avataras === 'avataras.png' || autorius.avataras === '' ) {
+        avatar = autorius.avataras = 'user.png';
+    } else {
+        avatar = autorius.avataras;
+    }
 
 
     let HTML = `<div class="header">
 
-                <img src="./img/avatar/${autorius.avataras}">
+                <img src="./img/avatar/${avatar}">
 
                 <div class="user_title">
                 <div class="user_info">${autorius.vardas} ${autorius.pavarde}</div>
@@ -63,24 +69,6 @@ function getDataFooter( ) {
                 </div>`;
     return HTML;
 }
-
-
-
-        for (var i = 0; i<feed.length; i++) {
-            var res = feed[i].autorius.avataras;
-            var avatr = '';
-            var all;
-            if ( res === 'avataras.png') {
-                 all = avatr + 'user.png';
-            } else {
-                 all = res;
-            }
-            
-            console.log(all);
-
-        }
-        console.log('-----------');
-        console.log(all);
 
 
 getFeed(feed);
