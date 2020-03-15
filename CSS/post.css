@@ -1,12 +1,16 @@
 .post {
     display: inline-block;
     width: 100%;
-    height: 150px;
     border: 1px solid rgb(131, 131, 131);
     border-radius: 5px;
     background-color: white;
     margin: 5px 0;
     float: left;
+    padding: 5px;
+}
+
+.post:last-of-type {
+    margin-bottom: 120px;
 }
     .post > .header {
         display: inline-block;
@@ -52,8 +56,83 @@
             padding-top: 5px;
         }
 
-    .header > i {
+    .header > .fa {
         float: right;
-        width: 3%;
+        width: 1%;
         margin: 6px 5px 0px 0px;
+        color: black;
     }
+    .footer {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 2px;
+    }
+        .footer > .action {
+            display: inline-block;
+            width: 100%;
+            height: 35px;
+            padding: 6px;
+            border-top: 1px solid rgb(170, 170, 170);
+            border-bottom: 1px solid rgb(170, 170, 170);
+            margin-top: 5px;
+        }
+            .action > .like {
+                display: inline-block;
+                width: 50%;
+                float: left;
+            }
+            .action > .comment {
+                display: inline-block;
+                width: 50%;
+                float: left;
+            }
+            .fa {
+                display: inline-block;
+                font-size: 13px;
+                line-height: 13px;
+                padding: 3px 3px 0px 0px;
+            
+            }
+                .field {
+                    position: relative;
+                    margin-top: 10px;
+                }
+                img {
+                    display: inline-block;
+                    height: 40px;
+                    width: 40px;
+                    object-fit: cover;
+                    object-position: center;
+                    border-radius: 50%;
+                    float: left;
+                    margin: 9px 0px 1px 10px;
+                    
+                }
+                .field > .text_area {
+                    display: inline-block;
+                    float: left;
+                    width: 81%;
+                }
+                .field > textarea {
+                    display: inline-block;
+                    width:  86%;
+                    height: 36px;
+                    min-height: 36px;
+                    max-height: 150px;
+                    border-radius: 18px;
+                    font-size: 15px;
+                    line-height: 20px;
+                    padding: 5px 10px;
+                    resize: vertical;
+                    
+                }
+                .field > .imc {
+                    display: inline-block;
+                    position: absolute;
+                    bottom: 8px;
+                    right: 25px;
+                    float: left;
+                }
+                .imc > .fa {
+                    font-size: 14px;
+                }

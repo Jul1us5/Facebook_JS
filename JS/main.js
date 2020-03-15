@@ -62,10 +62,33 @@ function getDataContent(pranesimas) {
     let HTML = `<div class="content">${pranesimas.tekstas}</div>`;
     return HTML;
 }
+
+
+
+
+
+
+
+
+
+
+
 function getDataFooter( ) {
     let HTML = `<div class="footer">
-                <div class="">??</div>
-                <div class="comment">??</div>
+                <div class="action">
+                <div class="like"><i class="fa fa-heart"></i>Like</div>
+                <div class="comment"><i class="fa fa-comment"></i>Comment</div>
+                </div>
+                <img src="./img/avatar/2.png">
+                    <div class="field">
+                        <textarea></textarea>
+                            <div class="imc">
+                            <i class="fa fa-smile-o"></i>
+                            <i class="fa fa-camera"></i>
+                            <i class="fa fa-file-image-o"></i>
+                            <i class="fa fa-user-secret"></i>
+                            </div>
+                    </div>
                 </div>`;
     return HTML;
 }

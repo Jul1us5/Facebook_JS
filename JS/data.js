@@ -7,7 +7,7 @@ const feed = [
         pavarde: 'Pavardenis',
         amzius: 26,
         lytis: 'Vyras',
-        avataras: '1.png',
+        avataras: '',
         nuoroda: '#'
     },
     laikas: 1583832433393,
