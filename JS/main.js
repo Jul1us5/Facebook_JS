@@ -86,16 +86,34 @@ function getDataContentText( tekstas, spalva ) {
 
 function getDataContentGallery( paveiksliukai ) {
 
+    if ( !Array.isArray(paveiksliukai) ||
+    paveiksliukai.length === 0 ) {
+        return '';
+    }
 
-    console.log(paveiksliukai);
     let HTML = '';
+    let kiek = 0;
 
-    HTML += `<img src="./img/${ paveiksliukai }">`;
-    return HTML;
+    for (let i = 0; i < paveiksliukai.length; i++) {
+        if ( paveiksliukai[i].length >= 5 &&
+             paveiksliukai[i].length < 100 &&
+             typeof(paveiksliukai[i]) === 'string' ) {
+                 kiek++;
+            HTML += `<img src="./img/${paveiksliukai[i]}">`;
+        }
 
+
+
+
+
+
+        }
+        console.log(kiek);
+        return HTML;
+
+    }
 
     
-} 
 
 
 

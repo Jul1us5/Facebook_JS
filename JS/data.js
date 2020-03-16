@@ -12,7 +12,11 @@ const feed = [
     },
     laikas: 1583832433393,
     pranesimas: {
-        tekstas: 'Sveiki, as esu Julius.'
+        tekstas: 'Sveiki, as esu Julius.',
+        spalva: '',
+        paveiksliukai: [
+
+        ]
     }
     },
 
@@ -27,7 +31,11 @@ const feed = [
     },
     laikas: 1583832433393,
     pranesimas: {
-        tekstas: 'Neturiu komentaru....'
+        tekstas: 'Neturiu komentaru....',
+        spalva: '',
+        paveiksliukai: [
+
+        ]
     }
     },
 
@@ -42,7 +50,11 @@ const feed = [
         },
     laikas: 1583832434388,
     pranesimas: {
-        tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi'
+        tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi',
+        spalva: '',
+        paveiksliukai: [
+
+        ]
     }
     },
 
@@ -57,7 +69,11 @@ const feed = [
         },
     laikas: 1583832434388,
     pranesimas: {
-        tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi . Ex earum tenetur odit nemo id architecto laborum iure error, . Ex earum tenetur odit nemo id architecto laborum iure error,'
+        tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi . Ex earum tenetur odit nemo id architecto laborum iure error, . Ex earum tenetur odit nemo id architecto laborum iure error,',
+        spalva: '',
+        paveiksliukai: [
+
+        ]
     }
     },
 
@@ -72,7 +88,11 @@ const feed = [
         },
     laikas: 1583832434388,
     pranesimas: {
-        tekstas: 'Labas'
+        tekstas: 'Labas',
+        spalva: '',
+        paveiksliukai: [
+
+        ]
     }
     },
 
@@ -87,7 +107,11 @@ const feed = [
         },
     laikas: 1583832434388,
     pranesimas: {
-        tekstas: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, veniam quia totam nemo, tempore delectus, illum rem necessitatibus minus maxime et odit vel explicabo ullam! Tenetur iusto velit delectus et ex numquam repellat natus, eaque esse sint iste consectetur placeat nesciunt quos vel commodi? Aliquam modi facilis nulla consequatur illum.'
+        tekstas: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, veniam quia totam nemo, tempore delectus, illum rem necessitatibus minus maxime et odit vel explicabo ullam! Tenetur iusto velit delectus et ex numquam repellat natus, eaque esse sint iste consectetur placeat nesciunt quos vel commodi? Aliquam modi facilis nulla consequatur illum.',
+        spalva: '',
+        paveiksliukai: [
+
+        ]
     }
     },
     
@@ -106,6 +130,7 @@ const feed = [
         spalva: 'red',
         paveiksliukai: [
             '1.png',
+            '5.png',
         ]
     }
     },
@@ -122,9 +147,9 @@ const feed = [
     laikas: 1583832434388,
     pranesimas: {
         tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi . Ex earum tenetur  . Ex earum tenetur odit nemo id architecto laborum iure erro',
+        spalva: '',
         paveiksliukai: [
             '1.png',
-            '2.png',
         ]
     }
     }, 
@@ -141,6 +166,7 @@ const feed = [
     laikas: 1583832434388,
     pranesimas: {
         tekstas: 'LabasLorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi, Ex earum tenetur odit nemo id architecto laborum iure erro',
+        spalva: '',
         paveiksliukai: [
             '1.png',
             '2.png',
@@ -183,6 +209,7 @@ const feed = [
     laikas: 1583832434388,
     pranesimas: {
         tekstas: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex earum tenetur odit nemo id architecto laborum iure error, aliquid nisi',
+        spalva: '',
         paveiksliukai: [
             '1.png',
             '2.png',
