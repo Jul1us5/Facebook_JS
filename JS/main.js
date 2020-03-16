@@ -91,25 +91,44 @@ function getDataContentGallery( paveiksliukai ) {
         return '';
     }
 
+    let imgHTML = '';
     let HTML = '';
     let kiek = 0;
+    let fotocount = 0;
+    let moreHTML = '';
 
     for (let i = 0; i < paveiksliukai.length; i++) {
         if ( paveiksliukai[i].length >= 5 &&
              paveiksliukai[i].length < 100 &&
              typeof(paveiksliukai[i]) === 'string' ) {
                  kiek++;
-            HTML += `<img src="./img/${paveiksliukai[i]}">`;
+                 if ( kiek <= 4 ) {
+            imgHTML += `<img src="./img/${paveiksliukai[i]}">`;
+                 }
+        }
+    }
+
+
+        fotocount = kiek;
+        if (kiek > 4 ) {
+            fotocount = 4;
+            moreHTML = `<div class="more">+${kiek - 4}</div>`;
         }
 
+        HTML = `<div class="gallery in-${fotocount}">
+                    ${imgHTML}
+                    ${moreHTML}
+                    </div>`;
 
 
 
+        
+        if (kiek === 0 ) {
+            return '';
+        } 
 
-
-        }
-        console.log(kiek);
         return HTML;
+
 
     }
 

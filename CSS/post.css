@@ -139,5 +139,74 @@
 .inner_content > img {
     display: inline-block;
     width: 100%;
+}
 
+
+.gallery {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.gallery > img {
+    display: inline-block;
+    width: 470px;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.in-2 > img {
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    float: left;
+}
+.in-3 > img:nth-child(1) {
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    float: left;
+}
+.in-3 > img {
+    display: inline-block;
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+    object-position: bottom;
+    float: left;
+}
+.in-4 > img:nth-child(1) {
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    float: left;
+}
+.in-4 > img {
+    display: inline-block;
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    float: left;
+}
+
+.gallery > .more {
+    display: inline-block;
+    width: 50%;
+    height: 100px;
+    background-color: #000b;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
 }

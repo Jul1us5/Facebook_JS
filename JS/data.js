@@ -130,7 +130,7 @@ const feed = [
         spalva: 'red',
         paveiksliukai: [
             '1.png',
-            '5.png',
+            '2.png',
         ]
     }
     },
